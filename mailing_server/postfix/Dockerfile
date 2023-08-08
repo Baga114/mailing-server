@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 EXPOSE 25/tcp 465/tcp 587/tcp
 
