@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:buster
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update; apt-get install -q -y dovecot-pgsql dovecot-imapd dovecot-pop3d dovecot-lmtpd ca-certificates
 
